@@ -1,0 +1,21 @@
+# Power BI temporary/lock files
+*.pbit
+*.tmp
+*.bak
+~$*
+*.pbix.lock
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python/node artifacts, if added later
+__pycache__/
+node_modules/

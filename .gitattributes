@@ -1,0 +1,3 @@
+# Treat Power BI files as binary; do not attempt text diffs or merges.
+*.pbix binary
+*.pbit binary
